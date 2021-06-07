@@ -165,9 +165,9 @@ function generateManager(employee) {
 function generateEngineer(employee) {
     return `<div class ="col-4">
     <div class="card mx-auto mb-3 style="width: 18rem;">
-    <div class="card-header">
-        <h5 class="card-title">${employee.getRole()}</h5>
-    </div>
+   
+        <h5 class="card-header">${employee.getRole()}</h5>
+   </div>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">${employee.name}</li>
         <li class="list-group-item">${employee.id}</li>
