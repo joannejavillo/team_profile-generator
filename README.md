@@ -33,6 +33,8 @@ NPM, Node.js, Jest
 
  ![screenshot-of-termina](./assets/teamgen.png) "Screenshot of the terminal"
 
+ ![screenshot-of-termina](./assets/team-gen.png) "Screenshot of the generated html"
+
  ![video-of-team-profile](./assets/teamprof.gif) "video-gif of the app"
 ---
 ---
