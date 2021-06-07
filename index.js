@@ -100,7 +100,7 @@ async function init() {
         if (input === false) {
             add = false;
 
-            console.log("add false");
+            console.log("You created your team!");
 
             let html = generateMarkdown(employees);
 
@@ -150,6 +150,7 @@ function generateMarkdown(employees) {
 function generateManager(employee) {
     return `<div class ="col-4">
     <div class="card mx-auto mb-3 style="width: 18rem;">
+    <div class="card-header">
         <h5 class="card-header">${employee.getRole()}</h5>
     </div>
     <ul class="list-group list-group-flush">
@@ -165,7 +166,7 @@ function generateManager(employee) {
 function generateEngineer(employee) {
     return `<div class ="col-4">
     <div class="card mx-auto mb-3 style="width: 18rem;">
-   
+    <div class="card-header">
         <h5 class="card-header">${employee.getRole()}</h5>
    </div>
     <ul class="list-group list-group-flush">
@@ -182,7 +183,7 @@ function generateIntern(employee) {
     return `<div class ="col-4">
     <div class="card mx-auto mb-3 style="width: 18rem;">
     <div class="card-header">
-        <h5 class="card-title">${employee.getRole()}</h5>
+        <h5 class="card-header">${employee.getRole()}</h5>
     </div>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">${employee.name}</li>
